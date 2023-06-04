@@ -1,0 +1,140 @@
+.product-list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-list__title {
+  font-size: 30px;
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.success-message {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product-list__image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.product-list__details {
+  flex-grow: 1;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.product-list__name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.product-list__price {
+  margin-bottom: 5px;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.product-list__form {
+  margin-top: 30px;
+}
+
+.product-list__form input {
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  border: 1px solid #007bff;
+  background-color: #f7f7f7;
+}
+
+.btn,
+.btn1,
+.tambah {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.btn1 {
+  background-color: #28a745;
+  margin-right: 5px;
+}
+
+.btn:hover,
+.btn1:hover,
+.tambah:hover {
+  background-color: #0056b3;
+}
+
+.product-list__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+
+}
+.product-list__table thead{
+  background-color: hsl(211, 94%, 27%);
+  color: white;
+}
+
+.product-list__table th,
+.product-list__table td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.product-list__image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.product-list__form input {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .product-list__item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-list__image img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .product-list__name,
+  .product-list__price {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  .product-list__form input {
+    font-size: 16px;
+  }
+}

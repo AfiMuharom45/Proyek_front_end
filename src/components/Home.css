@@ -1,0 +1,136 @@
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-list__ok{
+  font-weight: bold;
+}
+.home-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.home-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.home-table th,
+.home-table td {
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.home-table thead {
+  background-color: hsl(211, 94%, 27%);
+}
+
+.home-table th {
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.home-table tbody tr:nth-child(even) {
+  background-color: #eee8e8;
+}
+
+
+.home-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.home__header {
+  padding: 40px;
+  color: black;
+  text-align: center;
+}
+
+.home__title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.home__subtitle {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.home__image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.home__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+
+.home__feature {
+  flex-basis: 30%;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.home__feature:hover {
+  transform: translateY(-5px);
+}
+
+.home__feature-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home__feature-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+
+.home__footer {
+  background-color: hsl(211, 94%, 27%);
+  padding: 20px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .home__content {
+    flex-direction: column;
+  }
+
+  .home__feature {
+    margin-bottom: 20px;
+  }
+}
