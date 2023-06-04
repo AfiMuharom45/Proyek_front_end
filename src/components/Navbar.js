@@ -9,7 +9,7 @@ function Navbar() {
           <a className="navbar__link" href="/">Home</a>
         </li>
         <li className="navbar__item">
-          <a className="navbar__link" href="/producList">Tambah Makanan</a>
+          <a className="navbar__link" href="/home">Tambah Makanan</a>
         </li>
       </ul>
     </nav>
